@@ -86864,15 +86864,16 @@ s=r==null?m:r.b
 if(s==null)s=""
 return A.c3(m,A.eJ(A.b([new A.Dh(m),new A.Kq(p,B.j,30*j,m),new A.b_(m,6*q,m,m),n,new A.b_(m,3*o,m,m),A.bK(s,m,m,m,$.axN().by(B.j),m,m),new A.b_(m,6*$.T().gao(),m,m)],t.p),B.bE,B.W,B.an),B.m,B.t,m,m,m,160*l,m,new A.ab(10*k,0,0,0),m,m,1/0)}}
 A.LM.prototype={
-J(a){var s,r=null,q=6*$.T().gaF(),p=6*$.T().gao(),o=A.aD(38,B.t.C()>>>16&255,B.t.C()>>>8&255,B.t.C()&255),n=$.T()
-n=A.ce(20*Math.min(n.gaF(),n.gao()))
-s=this.c.c
-p=A.b([new A.LL(r),A.AP(r,r,r,r,r,r,A.c3(B.X,A.bK(A.aFE(s),r,r,r,$.iU().by(B.t),r,r),B.m,r,r,new A.cf(o,r,r,n,r,r,B.Z),r,r,r,new A.ab(q,p,q,p),r,r,r),B.k_,r,r),A.ayK(B.Ja,new A.a55(a),"Accueil"),A.ayK(B.Jc,new A.a56(a),"Changer le mot de passe")],t.p)
-if(s!=="admin"&&s!=="responsible")p.push(A.ayK(B.Jg,new A.a57(a),"Mes bons scann\xe9s"))
-p.push(new A.Dh(r))
-p.push(A.AP(r,r,r,r,r,r,A.dw(A.bK("v1.0.0",r,r,r,r,r,r),r,r),r,$.iU().H6(B.eR,B.G),r))
-p.push(A.AP(r,A.ef(B.J7,B.j,r,r),new A.a58(a),r,r,B.hx,A.bK("D\xe9connexion",r,r,r,A.cF(r,r,B.j,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r),r,$.iU(),r))
-return new A.LG(B.bs,A.eJ(p,B.U,B.W,B.an),r)}}
+J(a){var s,r,q=null,p=6*$.T().gaF(),o=6*$.T().gao(),n=A.aD(38,B.t.C()>>>16&255,B.t.C()>>>8&255,B.t.C()&255),m=$.T()
+m=A.ce(20*Math.min(m.gaF(),m.gao()))
+s=this.c
+r=s.c
+o=A.b([new A.LL(q),A.AP(q,q,q,q,q,q,A.c3(B.X,A.bK(A.aFE(r)+" | "+s.d,q,q,q,$.iU().by(B.t),q,q),B.m,q,q,new A.cf(n,q,q,m,q,q,B.Z),q,q,q,new A.ab(p,o,p,o),q,q,q),B.k_,q,q),A.ayK(B.Ja,new A.a55(a),"Accueil"),A.ayK(B.Jc,new A.a56(a),"Changer le mot de passe")],t.p)
+if(r!=="admin"&&r!=="responsible")o.push(A.ayK(B.Jg,new A.a57(a),"Mes bons scann\xe9s"))
+o.push(new A.Dh(q))
+o.push(A.AP(q,q,q,q,q,q,A.dw(A.bK("v1.0.0",q,q,q,q,q,q),q,q),q,$.iU().H6(B.eR,B.G),q))
+o.push(A.AP(q,A.ef(B.J7,B.j,q,q),new A.a58(a),q,q,B.hx,A.bK("D\xe9connexion",q,q,q,A.cF(q,q,B.j,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q),q,$.iU(),q))
+return new A.LG(B.bs,A.eJ(o,B.U,B.W,B.an),q)}}
 A.a55.prototype={
 $0(){A.dJ(this.a,!1).Jn(null)},
 $S:0}
